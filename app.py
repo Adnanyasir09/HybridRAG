@@ -22,6 +22,8 @@ st.markdown(
     footer {visibility: hidden;}
     /* Hide header (optional, top bar) */
     header {visibility: hidden;}
+    /* Hide footer (powered by Streamlit + profile icon) */
+    footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True

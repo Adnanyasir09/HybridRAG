@@ -12,22 +12,22 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 st.markdown(
     """
     <style>
     /* Hide Streamlit menu (top-right) */
     #MainMenu {visibility: hidden;}
-    /* Hide footer (with Made with Streamlit and GitHub/Fork) */
-    footer {visibility: hidden;}
-    /* Hide header (optional, top bar) */
+    /* Hide header (top bar) */
     header {visibility: hidden;}
-    /* Hide footer (powered by Streamlit + profile icon) */
+    /* Hide footer (includes Powered by Streamlit + profile icon) */
     footer {visibility: hidden;}
+    /* Hide GitHub / Fork buttons in deployed app */
+    .css-1v3fvcr {display: none !important;}
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 

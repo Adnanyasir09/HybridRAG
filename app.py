@@ -4,6 +4,29 @@ from hybrid_rag import setup_hybrid_rag, query_hybrid_rag
 import os
 from dotenv import load_dotenv
 from pathlib import Path
+import streamlit as st
+
+st.set_page_config(
+    page_title="Hybrid RAG System",
+    page_icon="🌎",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+st.markdown(
+    """
+    <style>
+    /* Hide Streamlit menu (top-right) */
+    #MainMenu {visibility: hidden;}
+    /* Hide footer (with Made with Streamlit and GitHub/Fork) */
+    footer {visibility: hidden;}
+    /* Hide header (optional, top bar) */
+    header {visibility: hidden;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 
 # Load environment variables

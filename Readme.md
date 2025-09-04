@@ -14,7 +14,7 @@ A question-answering app combining SQL queries and document retrieval to provide
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hybrid-rag-system.git && cd hybrid-rag-system
+   git clone https://github.com/Adnanyasir09/HybridRAG.git && cd HybridRAG
    ```
 2. **Set up a virtual environment**
    ```bash
